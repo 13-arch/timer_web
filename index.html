@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
-<body>
+<body id="body">
     <div id="timer_type">
         <button id="pomodoro_btn">25min</button>
         <button id="long_break_btn">15min</button>
@@ -20,6 +20,17 @@
         <button id="start_btn">start</button>
         <button id="pause_btn">pause</button>
         <button id="reset_btn">reset</button>
+        <button id="skip_btn">skip</button>
+    </div>
+    <div id="taskButton">
+        <input id="task" placeholder="write">
+        <button id="addTask">add</button>
+    </div>
+    <div id="notCompletedTask">
+        <h3>not completed</h3>
+    </div>
+    <div id="completedTask">
+        <h3>completed</h3>
     </div>
     <script src="script.js"></script>
 </body>
